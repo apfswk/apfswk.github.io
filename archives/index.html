@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ch-tw">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.0.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/koishi.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/koishi.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/koishi.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
-  <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="apfswk" type="application/atom+xml">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -26,7 +26,7 @@
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
@@ -43,22 +43,25 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Copy',
-      copy_success: 'Copied',
-      copy_failure: 'Copy failed'
+      copy_button: 'Kopieren',
+      copy_success: 'Kopiert',
+      copy_failure: 'Kopieren fehlgeschlagen'
     },
     sidebarPadding: 40
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en">
+  <meta name="description" content="IOer">
+<meta name="keywords" content="IO,東方プロジェクト,ラブライブ">
+<meta property="og:type" content="website">
+<meta property="og:title" content="apfswk">
+<meta property="og:url" content="http:&#x2F;&#x2F;apfswk.github.io&#x2F;archives&#x2F;index.html">
+<meta property="og:site_name" content="apfswk">
+<meta property="og:description" content="IOer">
+<meta property="og:locale" content="ch-tw">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/archives/">
+<link rel="canonical" href="http://apfswk.github.io/archives/">
 
 
 <script id="page-configurations">
@@ -72,7 +75,7 @@
   };
 </script>
 
-  <title>Archive | Hexo</title>
+  <title>Archiv | apfswk</title>
   
 
 
@@ -116,14 +119,15 @@
     <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">apfswk</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+        <p class="site-subtitle">ブログ</p>
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -137,12 +141,22 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Startseite</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>Über</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Schlagwörter</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archiv</a>
 
   </li>
   </ul>
@@ -152,10 +166,6 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
 
 
     <main class="main">
@@ -172,7 +182,7 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Um..! 1 post. Keep on posting.</span>
+        <span class="collection-header">Öhm..! Ein Artikel. Bleib dran.</span>
       </div>
 
       
@@ -228,10 +238,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          Inhaltsverzeichnis
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          Übersicht
         </li>
       </ul>
 
@@ -242,8 +252,10 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description" itemprop="description"></div>
+    <img class="site-author-image" itemprop="image" alt="apfswk Song"
+      src="/images/koishi.png">
+  <p class="site-author-name" itemprop="name">apfswk Song</p>
+  <div class="site-description" itemprop="description">IOer</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -251,7 +263,7 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">Artikel</span>
         </a>
       </div>
   </nav>
@@ -261,10 +273,45 @@
       <i class="fa fa-rss"></i>RSS
     </a>
   </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/apfswk" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;apfswk" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/mailto:apfswk@gmail.com" title="E-Mail → mailto:apfswk@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://plus.google.com/apfswk" title="Google → https:&#x2F;&#x2F;plus.google.com&#x2F;apfswk" rel="noopener" target="_blank"><i class="fa fa-fw fa-google"></i>Google</a>
+      </span>
+  </div>
 
 
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://bordersaki.github.io/" title="https:&#x2F;&#x2F;bordersaki.github.io&#x2F;" rel="noopener" target="_blank">BorderSaki(404)</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://wknclizu.github.io/" title="https:&#x2F;&#x2F;wknclizu.github.io&#x2F;" rel="noopener" target="_blank">wknclizu</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://bedrockdigger.github.io/" title="https:&#x2F;&#x2F;bedrockdigger.github.io&#x2F;" rel="noopener" target="_blank">bedrockdigger</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.byvoid.com/zht/" title="https:&#x2F;&#x2F;www.byvoid.com&#x2F;zht&#x2F;" rel="noopener" target="_blank">byvoid(Ch-TW)</a>
+        </li>
+    </ul>
+  </div>
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
 
     </div>
   </aside>
@@ -283,17 +330,34 @@
   &copy; 
   <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-battery-full"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">apfswk Song</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
-  </div>
-  <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
+  <div class="theme-info">Design – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
   </div>
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Alle Besucher">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Alle Aufrufe">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
@@ -337,6 +401,8 @@
 
 
 
+
+  
 
   
 
